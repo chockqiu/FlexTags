@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tv_item_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    android:background="@drawable/shape_16dp_f5f7fa"
+    android:paddingStart="12dp"
+    android:paddingTop="6dp"
+    android:paddingEnd="12dp"
+    android:paddingBottom="6dp"
+    android:text="易烊千玺"
+    android:textColor="#333333"
+    android:textSize="14sp" />
