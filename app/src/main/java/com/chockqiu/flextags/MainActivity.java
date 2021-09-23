@@ -99,5 +99,6 @@ public class MainActivity extends AppCompatActivity {
         TEXT_POOL.add("让亚洲象有家可回");
         TEXT_POOL.add("阳光帅气新生");
         TEXT_POOL.add("英俊帅气的实力派演员");
+        TEXT_POOL.add("有时候会出现一段非常长非常长非常长非常长非常长非常长的文字, 这时候改如何显示呢?");
     }
 }
