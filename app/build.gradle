@@ -32,6 +32,6 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'com.google.android.material:material:1.2.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.1'
-    implementation project(path: ':libFlexTags')
-//    implementation 'com.github.chockqiu:FlexTags:v1.1'
+//    implementation project(path: ':libFlexTags')
+    implementation 'com.github.chockqiu:FlexTags:1.1'
 }
