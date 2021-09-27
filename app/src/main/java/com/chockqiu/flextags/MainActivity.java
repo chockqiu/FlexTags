@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void editSimple(View view) {
-        Intent intent = new Intent(this, SelectSimpleActivity.class);
+        Intent intent = new Intent(this, EditSimpleActivity.class);
         startActivity(intent);
     }
 

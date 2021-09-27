@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".SelectSimpleActivity" />
+        <activity android:name=".EditSimpleActivity" />
     </application>
 
 </manifest>
