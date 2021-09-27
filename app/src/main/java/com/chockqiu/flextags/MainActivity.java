@@ -1,6 +1,7 @@
 package com.chockqiu.flextags;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -19,11 +20,11 @@ import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Context mContext = this;
+    private final Context mContext = this;
     private FlexTags.Adapter mAdapter;
-    private ArrayList<String> tags = new ArrayList<>();
+    private final ArrayList<String> tags = new ArrayList<>();
     private LayoutInflater mLayoutInflater;
-    private Random mRandom = new Random();
+    private final Random mRandom = new Random();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,6 +69,16 @@ public class MainActivity extends AppCompatActivity {
         tags.clear();
         tags.addAll(set);
         mAdapter.notifyDataSetChanged();
+    }
+
+    public void selectSimple(View view) {
+        Intent intent = new Intent(this, SelectSimpleActivity.class);
+        startActivity(intent);
+    }
+
+    public void editSimple(View view) {
+        Intent intent = new Intent(this, SelectSimpleActivity.class);
+        startActivity(intent);
     }
 
     private static final List<String> TEXT_POOL = new ArrayList<>();
