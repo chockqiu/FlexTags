@@ -34,7 +34,7 @@
             android:layout_marginStart="5dp"
             android:paddingTop="8dp"
             android:paddingBottom="12dp"
-            android:text="兴趣标签"
+            android:text="选中示例(兴趣标签)"
             android:textColor="#333333"
             android:textSize="16sp"
             android:textStyle="bold"
